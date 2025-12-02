@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 50a4c731a0c6a67468306f794069365e
+  productGUID: e23f05007957da34cb2da5918b128c96
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -777,14 +777,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Haunted House
+  metroPackageName: HauntedHouse
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Haunted House
+  metroApplicationDescription: HauntedHouse
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -859,7 +859,7 @@ PlayerSettings:
   cloudProjectId: 8c5d1760-412f-4735-b475-effeaf38e959
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Haunted House
+  projectName: 
   organizationId: nicholsonkayden220
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
