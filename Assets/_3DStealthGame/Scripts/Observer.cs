@@ -8,7 +8,9 @@ public class Observer : MonoBehaviour
     public GameEnding gameEnding;
     public Transform player;
     bool m_IsPlayerInRange;
+    //public GameObject shieldPrefab;
 
+    
     void OnTriggerEnter (Collider other)
     {
         if (other.transform == player)
@@ -36,9 +38,14 @@ public class Observer : MonoBehaviour
             if(Physics.Raycast(ray, out raycastHit))
             {
                 if (raycastHit.collider.transform == player)
-                {
-                    gameEnding.CaughtPlayer();
-                }
+                   // if (shieldPrefab.activeSelf == true)
+                   // {
+                   //     shieldPrefab.SetActive(false);
+                   // }
+                   // else
+                    {
+                        gameEnding.CaughtPlayer();
+                    }
             }
         }
     }

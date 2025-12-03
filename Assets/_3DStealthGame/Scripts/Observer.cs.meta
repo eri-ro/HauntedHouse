@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: 86deab25c058f1343a1004a755c20250
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameEnding: {instanceID: 0}
+  - player: {instanceID: 0}
+  - shieldPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
