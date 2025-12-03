@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-     Animator m_Animator;
+    Animator m_Animator;
     AudioSource m_AudioSource;
 
 
@@ -53,17 +53,17 @@ public class PlayerMovement : MonoBehaviour
         m_Rigidbody.MovePosition (m_Rigidbody.position + m_Movement * walkSpeed * Time.deltaTime);
 
         if (isWalking)
-{
-    if (!m_AudioSource.isPlaying)
-    {
-        m_AudioSource.Play();
-    }
-}
-else
-{
-    m_AudioSource.Stop();
-}
-if (isRunning)
+        {
+            if (!m_AudioSource.isPlaying)
+            {
+                m_AudioSource.Play();
+            }
+        }
+        else
+        {
+            m_AudioSource.Stop();
+        }
+        if (isRunning)
         {
             walkSpeed = boostSpeed;
         }
